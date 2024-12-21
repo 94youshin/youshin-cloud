@@ -5,7 +5,7 @@
     <groupId>com.youshin</groupId>
     <artifactId>youshin-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>youshin-gateway</name>
+    <name>youshin-system</name>
 
     <parent>
         <groupId>com.youshin</groupId>
