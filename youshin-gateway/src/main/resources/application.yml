@@ -1,0 +1,16 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: youshin-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: youshin-system
+          uri: http://localhost:8081
+          predicates:
+            - Path=/system/**
+
